@@ -1,7 +1,6 @@
+//Printing all possible solutions in N-Queens Problem
 #include <stdio.h>
-
 #define N 4
-
 // A utility function to print the chessboard with queens marked as 'Q' and empty squares as '.'
 void printChessboard(int chessboard[N][N]) {
     for (int i = 0; i < N; i++) {
